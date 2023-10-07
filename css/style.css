@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background: url('../icons/tiger.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .container{
   width: 80%;
   height: auto;
@@ -14,6 +21,7 @@
   flex-direction: column;
   position: relative;
   padding: 10px;
+
 }
 .title{
   font-size: 40px;
@@ -23,30 +31,34 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  background-color: rebeccapurple;
   padding: 10px;
+  border-radius: 10px;
 }
 .channel-list{
   display: flex;
   gap: 5px;
-  background-color: azure;
+  background-color: #e2dcdc50;
   border-radius: 20px;
   border: 2px solid black;
   flex-direction: column;
   justify-content: space-around;
 }
 .channel-list:hover .channel{
-  background-color: #59ee59;
+  background-color: #c3ccc334;
   border-radius: 20px;
+  color: white;
 }
 .icon{
   width: 100%;
+  border-radius: 10px;
 }
 .channel{
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100%;
 }
-.channel-logo{
+.channel-logo img{
   padding: 10px;
 }
 .ch-name{
