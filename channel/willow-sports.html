@@ -5,8 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="../icons/willow-sports.png" type="image/x-icon">
  <style>
- 	body {
+ 			*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+	body {
 				background: url('../icons/tiger.png');
+				background-color: #00000067;
 				background-position: center;
 				background-repeat: no-repeat;
 				background-attachment: fixed;
@@ -19,13 +25,23 @@
 				align-items: center;
 				justify-content: center;
 				background-color: #00000050;
+				opacity: 1;
 			}
 			iframe {
-				border-radius: 15px;
-				border: 10px solid #41e65d;
-				box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.623);
-				width: 90%;
+				border-radius: 10px;
+				border: 10px solid #049b54;
+				box-shadow: 5px 15px 50px #000000;
+				width: 88%;
 				height: 64%;
+			}
+			@media only screen and (max-width: 600px) {
+				iframe {
+				border-radius: 15px;
+				border: 10px solid #161616;
+				box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.623);
+				width: 80%;
+				height: 30%;
+			}
 			}
   </style>
   <title>Willow Sports</title>

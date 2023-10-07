@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Quicksand:wght@400;600&family=Roboto&family=Shadows+Into+Light&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -6,6 +7,7 @@
 }
 body{
     background: url('../icons/tiger.png');
+    background-color: #000000b7;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -26,6 +28,17 @@ body{
 .title{
   font-size: 40px;
   margin: 20px 0px;
+  padding: 10px 0px;
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+.title marquee h3{
+  color: red;
+  font-family: 'Faster One', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shadows Into Light', cursive;
 }
 .channel-ground{
   display: grid;
@@ -40,9 +53,9 @@ body{
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  background-color: #3f3f3f50;
+  background-color: #fcfbfba6;
   border-radius: 20px;
-  border: 2px solid black;
+  border: 2px solid #e7e4e4;
   box-shadow: 5px 5px 20px #000;
 }
 .channel{
@@ -55,10 +68,11 @@ body{
   padding: 10px;
 }
 .channel-list:hover .channel{
-  background-color: #c3ccc334;
+  background-color: #88888883;
   border-radius: 20px;
   color: white;
   width: 100%;
+  cursor: pointer;
 }
 .icon{
   width: 80%;
