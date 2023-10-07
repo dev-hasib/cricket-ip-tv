@@ -43,6 +43,7 @@ body{
   background-color: #3f3f3f50;
   border-radius: 20px;
   border: 2px solid black;
+  box-shadow: 5px 5px 20px #000;
 }
 .channel{
   display: flex;
@@ -62,12 +63,12 @@ body{
 .icon{
   width: 80%;
   border-radius: 10px;
-  background-color: aqua;
 }
 
 .ch-name{
   text-align: center;
   text-decoration: none;
   font-size: 30px;
-  color: #f71d1d;
+  color: #000000;
+  text-shadow: 5px 5px 15px #fff;
 }
