@@ -1,9 +1,24 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (orientation:portrait) {
+  body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .container{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
   .channel-ground{
   display: grid;
   grid-template-columns:1fr ;
-  gap: 10px;
+  gap: 20px;
   padding: 10px;
 }
 }
