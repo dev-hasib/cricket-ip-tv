@@ -1,88 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Quicksand:wght@400;600&family=Roboto&family=Shadows+Into+Light&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background: url('../icons/tiger.png');
-    background-color: #000000b7;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+body {
+	background: url('../icons/cricket-stadium-vector.jpg');
+	background-color: #000000b7;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
-.container{
-  width: 80%;
-  height: auto;
-  margin:10px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-  padding: 10px;
+.container {
+	width: 80%;
+	height: auto;
+	margin: 10px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	padding: 10px;
+}
+.title {
+	font-size: 40px;
+	margin: 20px 0px;
+	padding: 10px 0px;
+	background-color: white;
+	width: 100%;
+	border-radius: 10px;
+}
+.title marquee h3 {
+	color: red;
+	font-family: 'Faster One', cursive;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Shadows Into Light', cursive;
+}
+.channel-ground {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.channel-list {
+	display: flex;
+	gap: 5px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fcfbfba6;
+	border-radius: 10px;
+	border: 2px solid #e7e4e4;
+	box-shadow: 5px 5px 20px #000;
+}
+.channel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
+	padding: 10px;
+}
+.channel-list:hover .channel {
+	background-color: #88888883;
+	border-radius: 10px;
+	color: white;
+	width: 100%;
+	cursor: pointer;
+}
+.icon {
+	width: 80%;
+	border-radius: 10px;
+}
 
-}
-.title{
-  font-size: 40px;
-  margin: 20px 0px;
-  padding: 10px 0px;
-  background-color: white;
-  width: 100%;
-  border-radius: 10px;
-}
-.title marquee h3{
-  color: red;
-  font-family: 'Faster One', cursive;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Shadows Into Light', cursive;
-}
-.channel-ground{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
-  padding: 10px;
-  border-radius: 10px;
-}
-.channel-list{
-  display: flex;
-  gap: 5px;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  background-color: #fcfbfba6;
-  border-radius: 20px;
-  border: 2px solid #e7e4e4;
-  box-shadow: 5px 5px 20px #000;
-}
-.channel{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  padding: 10px;
-}
-.channel-list:hover .channel{
-  background-color: #88888883;
-  border-radius: 20px;
-  color: white;
-  width: 100%;
-  cursor: pointer;
-}
-.icon{
-  width: 80%;
-  border-radius: 10px;
-}
-
-.ch-name{
-  text-align: center;
-  text-decoration: none;
-  font-size: 30px;
-  color: #000000;
-  text-shadow: 5px 5px 15px #fff;
+.ch-name {
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	color: #000000;
+	text-shadow: 5px 5px 15px #fff;
 }

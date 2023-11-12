@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: url('../../icons/cricket-stadium-vector.jpg');
+	background-color: #00000067;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.main {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #00000050;
+	flex-direction: column;
+	opacity: 1;
+}
+.ab {
+	width: 100vw;
+	height: 100vh;
+	border-color: #049b54;
+	pointer-events: none;
+}
+button {
+	padding: 15px 10px;
+	background: green;
+	color: white;
+	cursor: pointer;
+	margin-top: 20px;
+	border: none;
+	border-radius: 10px;
+}
+iframe {
+	border-radius: 10px;
+	border: 10px solid red;
+	box-shadow: 5px 15px 50px #000000;
+	width: 88%;
+	height: 64%;
+}
+@media only screen and (max-width: 600px) {
+	iframe {
+		border-radius: 15px;
+		border: 10px solid #161616;
+		box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.623);
+		width: 80%;
+		height: 30%;
+	}
+}
+
+.blink {
+	animation: blinker 1.5s linear infinite;
+	color: #fff;
+	font-family: 'Tiro Bangla', serif;
+	padding: 10px 0px;
+	font-size: 30px;
+	margin-bottom: 50px;
+	border-left-style: none;
+	border-right-style: none;
+	border-top: 7px solid #a6c23f;
+	border-bottom: 7px solid #538b0a;
+	border-style:dashed;
+	border-radius: 5px;
+	background-color: #000000;
+}
+@keyframes blinker {
+	50% {
+		border-top-color: red;
+		border-top-width: 7px;
+		border-bottom-color: red;
+		border-bottom-width: 7px;
+
+		border-left-style: none;
+		border-right-style: none;
+	}
+}
