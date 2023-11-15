@@ -22,13 +22,7 @@ body {
 	flex-direction: column;
 	opacity: 1;
 }
-.ab {
-	width: 100vw;
-	height: 100vh;
-	border-color: #049b54;
-	pointer-events: none;
-	background:red;
-}
+
 button {
 	padding: 15px 10px;
 	background: green;
@@ -38,9 +32,17 @@ button {
 	border: none;
 	border-radius: 10px;
 }
+.ab {
+	width: 100vw;
+	height: 100vh;
+	border-color: #049b54;
+	pointer-events: none;
+	background:red;
+}
 .fs-btn:hover{
 	background-color: #000000;
 	color:white;
+	border: 1px solid white;
 }
 iframe {
 	border-radius: 10px;
