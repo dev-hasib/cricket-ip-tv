@@ -37,7 +37,6 @@ body {
 	height: 100vh;
 	border-color: #049b54;
 	pointer-events: none;
-	background:red;
 }
 .fs-btn:hover{
 	background-color: #000000;
