@@ -27,6 +27,7 @@ body {
 	height: 100vh;
 	border-color: #049b54;
 	pointer-events: none;
+	background:red;
 }
 button {
 	padding: 15px 10px;
@@ -36,6 +37,10 @@ button {
 	margin-top: 20px;
 	border: none;
 	border-radius: 10px;
+}
+.fs-btn:hover{
+	background-color: #000000;
+	color:white;
 }
 iframe {
 	border-radius: 10px;
@@ -65,7 +70,7 @@ iframe {
 	border-right-style: none;
 	border-top: 7px solid #a6c23f;
 	border-bottom: 7px solid #538b0a;
-	border-style:dashed;
+	border-style:initial;
 	border-radius: 5px;
 	background-color: #000000;
 }
