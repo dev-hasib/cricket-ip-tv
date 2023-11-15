@@ -23,13 +23,13 @@ body {
 	opacity: 1;
 }
 
-button {
+#da,.fs-btn{
 	padding: 15px 10px;
 	background: green;
 	color: white;
 	cursor: pointer;
 	margin-top: 20px;
-	border: none;
+	border: 1px solid none;
 	border-radius: 10px;
 }
 .ab {
@@ -41,6 +41,10 @@ button {
 }
 .fs-btn:hover{
 	background-color: #000000;
+	color:white;
+	border: 1px solid white;
+}
+#da:hover{
 	color:white;
 	border: 1px solid white;
 }
