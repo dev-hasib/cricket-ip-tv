@@ -20,5 +20,6 @@ da.addEventListener('click', function () {
 	} else {
 		iframe.classList.remove('ab');
 		da.innerHTML = 'Disabled ads';
+		da.style.backgroundColor='green';
 	}
 });

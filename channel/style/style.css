@@ -75,7 +75,6 @@ iframe {
 	border-right-style: none;
 	border-top: 7px solid #a6c23f;
 	border-bottom: 7px solid #538b0a;
-	border-style:initial;
 	border-radius: 5px;
 	background-color: #000000;
 }
@@ -85,7 +84,6 @@ iframe {
 		border-top-width: 7px;
 		border-bottom-color: red;
 		border-bottom-width: 7px;
-
 		border-left-style: none;
 		border-right-style: none;
 	}
