@@ -36,8 +36,8 @@ body {
 	width: 100vw;
 	height: 100vh;
 	border-color: #049b54;
-	pointer-events: none;
 	cursor: not-allowed;
+	pointer-events: none;
 }
 .fs-btn:hover{
 	background-color: #000000;
