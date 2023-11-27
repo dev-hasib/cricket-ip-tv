@@ -31,6 +31,11 @@ body {
 	background-color: white;
 	width: 100%;
 	border-radius: 10px;
+	top: 20px;
+}
+.clearFix::after{
+	content: "";
+	clear: both;
 }
 .title marquee h3 {
 	color: red;
@@ -76,6 +81,7 @@ body {
 .icon {
 	width: 80%;
 	border-radius: 10px;
+	margin: 0 auto;
 }
 
 .ch-name {
