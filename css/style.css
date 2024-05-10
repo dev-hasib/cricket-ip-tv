@@ -47,6 +47,7 @@ body {
 .channel-ground {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
 	gap: 10px;
 	padding: 10px;
 	border-radius: 10px;

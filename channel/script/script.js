@@ -16,10 +16,10 @@ da.addEventListener('click', function () {
 	if (iframe.classList[0] !== 'ab') {
 		iframe.classList.add('ab');
 		da.innerHTML = 'Enabled ads';
-		da.style.backgroundColor='red';
+		da.style.backgroundColor = 'red';
 	} else {
 		iframe.classList.remove('ab');
 		da.innerHTML = 'Disabled ads';
-		da.style.backgroundColor='green';
+		da.style.backgroundColor = 'green';
 	}
 });
